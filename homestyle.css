@@ -4,6 +4,11 @@ body {
   font-family: 'Barlow', sans-serif; 
 }
 
+a{
+  text-decoration: none;
+  color: white;
+}
+
 table, th, td {
   border:2px solid black;
   border-color: #4E5166;
@@ -14,11 +19,21 @@ table, th, td {
 h1 {
   color: #4E5166;
   font-size: 150px;
-  margin-bottom: -20px;
+  margin-bottom: -30px;
   margin-top: -20px;
 }
 
-h3 {
+h2 {
   color: white;
   margin-bottom: -10px;
+}
+
+h4 {
+  color: white;
+  margin-bottom: -10px;
+}
+
+p{
+  color: white;
+  font-size: 20px;
 }
