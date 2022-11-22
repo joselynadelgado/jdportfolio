@@ -1,6 +1,6 @@
 body {
 
-  background-color: #6C809A;
+  background-color: #86615C;
   font-family: 'Barlow', sans-serif; 
 }
 
@@ -11,13 +11,13 @@ a{
 
 table, th, td {
   border:2px solid black;
-  border-color: #904E55;
+  border-color: #AFE0CE;
   color: white;
   padding: 5px;
 }
 
 h1 {
-  color: #904E55;
+  color: #AFE0CE;
   font-size: 150px;
   margin-bottom: -30px;
   margin-top: -20px;
