@@ -1,89 +1,70 @@
 body {
 
-  background-color: #1A1B41;
+  background-color: #white;
   font-family: 'Barlow', sans-serif; 
 }
 
 a{
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
-table, th, td {
-  border:2px solid black;
-  border-color: #98D7C0;
-  color: white;
-  padding: 5px;
+ @font-face { font-family: Monalisa Serif; src: url('monalisa-serif.TTF'); } 
+      h1 {
+         font-family: Monalisa Serif;
+         font-size:80px;
+         margin-top:-10px;
+         }
+
+
+.page {
+  width:96% ;
+  margin:0 auto;
+  padding:20px;
+  text-align:left;
+
+}
+
+.menu {
+  width:260px;
+  float:left;
+  margin:10px 0 10px 5px;
+  height:130px;
+  font-size:30px;
+  position:fixed;
+  left:40px;
+}
+
+.content {
+  width:1000px;
+  margin:10px 0 10px 320px;
+  min-height:800px;
+  _height:800px;
+  font-size:22px;
 }
 
 
-h2 {
-  color: white;
-  margin-bottom: -10px;
-}
-
-h3 {
-  color: #98D7C0;
-  font-size: 120px;
-  margin-bottom: -30px;
-  margin-top: -20px;
-}
-
-
-h4 {
-  color: white;
-  margin-bottom: -10px;
-  font-weight: lighter;
-}
-
-p{
-  color: white;
-  font-size: 20px;
-}
-
-{
-  box-sizing: border-box;
-}
-
-
-.row {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-}
-
-/* Create four equal columns that sits next to each other */
 .column {
-  -ms-flex: 33%; /* IE10 */
-  flex: 33%;
-  max-width: 32%;
-  padding: 0 4px;
+  float: left;
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box
 }
 
 .column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
+  margin-top: 12px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  box-sizing: border-box
 }
 
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media only screen and (max-width: 800px) {
-  .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-
-.box {
-  position:relative;
-  min-height: 200px;
-  max-height: 500px;
-  min-width: 200px;
-  max-width: 500px;
-  padding:0px;
-  margin:1%;
+.h2{
+  font-size:30px;
+  font-family: 'Barlow', sans-serif; 
 }
 
