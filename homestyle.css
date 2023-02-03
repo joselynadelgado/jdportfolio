@@ -9,12 +9,11 @@ a{
   color: black;
 }
 
- @font-face { font-family: Monalisa Serif; src: url('monalisa-serif.TTF'); } 
-      h1 {
-         font-family: Monalisa Serif;
-         font-size:80px;
-         margin-top:-10px;
-         }
+ h1 {
+   font-family: Yeseva One;
+   font-size:80px;
+    margin-top:-10px;
+    }
 
 
 .page {
@@ -37,7 +36,7 @@ a{
 
 .content {
   width:1000px;
-  margin:10px 0 10px 320px;
+  margin:10px 0 10px 350px;
   min-height:300px;
   _height:300px;
   font-size:22px;
