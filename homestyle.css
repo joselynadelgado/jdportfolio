@@ -37,8 +37,8 @@ a{
 .content {
   width:1000px;
   margin:10px 0 10px 350px;
-  min-height:900px;
-  _height:900px;
+  min-height:300px;
+  _height:300px;
   font-size:22px;
 
 }
