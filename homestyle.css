@@ -43,6 +43,14 @@ a{
 
 }
 
+.column2 {
+  float: left;
+  width: 66%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: -22px;
+}
+
 
 .column {
   float: left;
