@@ -28,6 +28,7 @@
 
     .name a:hover {
       color: #e4824c;
+      text-decoration: none;
     }
     
     a {
