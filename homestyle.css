@@ -100,10 +100,9 @@
       font-weight: bold;
     }
     
-    @media only screen and (max-width: 800) {
+      @media (max-width: 800px) {
       .image-grid {
         grid-template-columns: 1fr;
-      }
 
     }
 
