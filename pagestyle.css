@@ -14,21 +14,26 @@
     
     header {
       background-color: #F6F6F6;
-      padding: 25px;
+      padding: 10px;
+      padding-bottom: 0px;
       display: flex;
       align-items: center;
       justify-content: space-between;
     }
     
-    .name {
-      font-size: 20px;
-      color: #2f3d5d;
-      margin: 20px;
-      text-decoration: none;
-    }
+   .name {
+  font-size: 20px;
+  color: #2f3d5d;
+  margin: 20px;
+  text-decoration: none;
+  background-image: url(images/name/name.png);
+  background-size: cover;
+  width: 125px; /* Adjust the width and height as per your image dimensions */
+  height: 74px;
+}
 
     .name a:hover {
-      color: #e4824c;
+      cursor: pointer;
     }
     
     a {
