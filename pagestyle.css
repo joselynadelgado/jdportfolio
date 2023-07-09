@@ -134,3 +134,25 @@ p {
   padding-right: 24px;
   padding-bottom: 10px;
 }
+
+
+footer {
+  background-color: #F6F6F6;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.back-to-top a,
+.next-button a {
+  color: #2f3d5d;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 20px;
+}
+
+.back-to-top a:hover,
+.next-button a:hover {
+  color: #e4824c;
+}
+
