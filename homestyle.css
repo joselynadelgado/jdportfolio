@@ -110,8 +110,8 @@ nav ul li a:hover {
 
   .name {
     margin-bottom: 20px;
-    width: 260px; /* Double the width of the image */
-    height: 148px; /* Double the height of the image */
+    width: 250px; /* Double the width of the image */
+    height: auto;
   }
 
   nav {
