@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jojo Delgado Portfolio</title>
+    <link rel="icon" type="image/png" href="name/favicon.png"/>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+
+<body>
+  <header>
+  <a href="index.html" class="name"></a>
+
+    <nav>
+      <ul>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="aboutme.html">About</a></li>
+        <li><a href="mailto: joselynadelgado@gmail.com">Contact</a>
+      </ul>
+
+    </nav>
+  </header>
+
+  <header2>
+  <ul>
+        <li><a href="publications.html" >Publications</a></li>
+        <li><a href="typedesign.html">Type Design</a></li>
+        <li><a href="posters.html">Posters</a></li>
+        <li><a href="motion.html" >Motion Graphics</a></li>
+        <li><a href="logos.html" >Logos</a></li>
+        <li><a href="play.html" style= "color: #79c143" >Play</a></li>
+
+      </ul>
+  </header2>
+
+  <br><br>
+
+  <div class="image-grid">
+  
+
+<div class="slideshow-container">
+  <div class="mySlides1">
+    <img src="images/play/kaleidoscope/kale1.png" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="images/play/kaleidoscope/kale2.png" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="images/play/kaleidoscope/kale3.png" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="images/play/kaleidoscope/kale4.png" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="images/play/kaleidoscope/kale5.png" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="images/play/kaleidoscope/kale6.png" style="width:100%">
+  </div>
+
+  <div class="text">Interactive kaleidoscope color wheel
+</div>
+
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
+
+
+
+<div class="slideshow-container">
+  <div class="mySlides2">
+    <img src="images/play/pendulum/cards1.png" style="width:100%">
+  </div>
+
+  <div class="mySlides2">
+    <img src="images/play/pendulum/cards2.png" style="width:100%">
+  </div>
+
+  <div class="mySlides2">
+    <img src="images/play/pendulum/cards3.png" style="width:100%">
+  </div>
+
+  <div class="mySlides2">
+    <img src="images/play/pendulum/cards4.png" style="width:100%">
+  </div>
+
+  <div class="mySlides2">
+    <img src="images/play/pendulum/cards5.png" style="width:100%">
+  </div>
+
+  <div class="mySlides2">
+    <img src="images/play/pendulum/cards6.png" style="width:100%">
+  </div>
+
+  <div class="mySlides2">
+    <img src="images/play/pendulum/cards7.png" style="width:100%">
+  </div>
+
+  <div class="mySlides2">
+    <img src="images/play/pendulum/cards8.png" style="width:100%">
+  </div>
+
+
+<div class="text">Clock playing cards
+</div>
+
+  <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+</div>
+
+
+
+
+<!-- Repeat the above pattern for more slideshows -->
+
+
+
+<script>
+let slideIndex = [1,1,1,1,1,1]; // Updated for 6 slideshows
+let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5", "mySlides6"]; // Updated for 6 slideshows
+showSlides(1, 0);
+showSlides(1, 1);
+showSlides(1, 2);
+showSlides(1, 3);
+showSlides(1, 4);
+showSlides(1, 5);
+// Call showSlides function for each slideshow
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  let i;
+  let x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+
+
+<br>
+
+  </div>
+
+
+
+<footer>
+  
+<li><a href="play.html" >Back to top</a></li> <br><br><br><br>
+
+</footer>
+
+
+
+</body>
+</html>
