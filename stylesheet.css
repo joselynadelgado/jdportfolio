@@ -183,3 +183,11 @@ nav ul li {
   }
 }
 
+
+footer {
+  padding: 4px;
+  display: flex;
+  align-items: left;
+  margin-left: 30px;
+  margin-bottom:40px;
+}
