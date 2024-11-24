@@ -99,6 +99,18 @@ nav ul li {
   height: auto;
 }
 
+
+/* Make videos responsive and match image behavior */
+.responsive-video {
+  width: 100%; /* Make the video span the full column width */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove inline-block spacing issues */
+  margin-top: 12px; /* Match the margin of images */
+}
+
+
+
+
 /* Responsive styles */
 @media only screen and (max-width: 600px) {
   .image-grid {
