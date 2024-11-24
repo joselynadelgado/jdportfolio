@@ -179,6 +179,14 @@ nav ul li {
   height: auto;
 }
 
+
+/* Ensure videos in image rows match the behavior of images */
+.image-row video {
+  width: 48%; /* Match the width of side-by-side images */
+  height: auto;
+}
+
+
 /* Responsive Layout for Small Screens */
 @media only screen and (max-width: 600px) {
   .project-description {
