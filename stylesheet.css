@@ -9,6 +9,16 @@ body {
   background-color: #000000;
   font-family: Courier New, monospace;
   color: #f2f2f2;
+  font-size: 11pt;
+}
+
+p, b, a {
+  line-height: 22px; /* Ensure other text elements use the same line-height */
+}
+
+img, video {
+  height: auto; /* Keep images and videos unaffected */
+  width: auto;
 }
 
 /* Links */
@@ -100,7 +110,7 @@ nav ul li {
 
 .image-row img, .image-row video {
   width: 48%;
-  height: auto;
+  height: 100%;
 }
 
 /* Responsive Layout */
