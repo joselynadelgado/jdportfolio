@@ -31,6 +31,7 @@ a:hover {
   color: #FF5F15;
 }
 
+
 /* Header Styles */
 header {
   background-color: #000000;
@@ -51,6 +52,24 @@ nav ul li {
   margin-right: 20px;
 }
 
+
+/* NAME */
+
+.desktop-video {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding:40px;
+}
+
+.mobile-video {
+  width: 100%;
+  height: auto;
+  display: none;
+  padding:40px;
+}
+
+
 /* Main Page Image Grid */
 .row {
   display: flex;
@@ -69,6 +88,7 @@ nav ul li {
   height: auto;
   margin-top: 12px;
 }
+
 
 /* Captions */
 .caption {
