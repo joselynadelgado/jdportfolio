@@ -1,53 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Jojo Delgado Portfolio</title>
-  <link rel="icon" type="image/png" href="../name/favicon.png" />
-  <link rel="stylesheet" href="../stylesheet.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jojo Delgado Portfolio</title>
+    <link rel="icon" type="image/png" href="name/favicon.png" />
+    <link rel="stylesheet" href="../stylesheet.css">
+    <script src="https://kit.fontawesome.com/2f6dc0f25b.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="../index.html">Work</a></li>
-        <li><a href="../aboutme.html">About</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main class="project-page">
-    <!-- Project Title -->
-    <h2>I was born in (Soy de) Caguas</h2>
-    <br>
-
-    <!-- Project Description -->
-    <p class="project-description">
-      A conversation with my grandmother about her upbringing in Puerto Rico and experience moving to the US. <br>
-      <a href="https://winning.work/work/2300-i-was-born-in-caguas">CADC Gold Award, 2023</a>
-    </p>
-
-    <!-- Project Images -->
-    <div class="image full-width">
-      <img src="../images/caguas/IMG_3765.png">
+    <div class="sidebar">
+        
+        <img src="../name/motion/Name-Short.gif">
+        
+        <nav>
+            <a href="../index.html">WORK</a> 
+            <br>
+            <a href="play.html">PLAY</a> 
+            <br>
+            <a href="../about.html">ABOUT</a> 
+            <br>
+            <a href="https://www.instagram.com/jojodelgadoart/" target="_blank"><i class="fab fa-instagram"></i></a> 
+            <br>
+            <a href="https://www.linkedin.com/in/jojo-delgado" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <br>
+            <a href="mailto:joselynadelgado@gmail.com" target="blank"><i class="fa-regular fa-envelope"></i></a> 
+            <br>
+        </nav>
     </div>
+    
+    <!-- Photo Grid -->
+<div class="row"> 
 
-    <div class="image-row">
-      <img src="../images/caguas/IMG_3766.png">
-      <img src="../images/caguas/IMG_3767.png">
+<!-- COLUMN 1 -->
+<div class="column">
+    <h3> I was born in (Soy de) Caguas </h3>
+    <p> <i> Publication </i> </p>
+    <p> A conversation with my grandmother about her upbringing in Puerto Rico and experience moving to the US. <br>
+      <a href="https://winning.work/work/2300-i-was-born-in-caguas"><i>CADC Gold Award, 2023</i></a></p>
+
+    <div class="image-container">
+        <img src="../images/caguas/caguas.png" onclick="openModal(this)">
     </div>
-
-    <div class="image-row">
-       <img src="../images/caguas/IMG_3768.png">
-       <img src="../images/caguas/IMG_3770.png">
+    <div class="image-container">
+        <img src="../images/caguas/IMG_3767.png" onclick="openModal(this)">
     </div>
-  </main>
+</div>
 
-  <footer>
-    <a href="../index.html">Back</a>
-  </footer>
+<!-- COLUMN 2 -->
+<div class="column">
+    <div class="image-container">
+        <img src="../images/caguas/IMG_3769.png" onclick="openModal(this)">
+    </div>
+    <div class="image-container">
+        <img src="../images/caguas/IMG_3770.png" onclick="openModal(this)">
+    </div>
+    <div class="image-container">
+        <img src="../images/caguas/IMG_3768.png" onclick="openModal(this)">
+    </div>
+</div>
+
+<!-- Lightbox Modal -->
+<div id="lightbox" class="lightbox" onclick="closeModal()">
+    <img id="lightbox-img">
+</div>
+
+
+<a href="punchysans.html"> » Next, Punchy Sans </a>
+    
+ </div>
+
+
+<!-- JAVA SCRIPT -->
+<script src="../script.js"></script>
+
+
 </body>
-
 </html>
